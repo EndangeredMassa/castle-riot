@@ -1,0 +1,218 @@
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  height: 80px;
+  padding-top: 20px;
+  border-bottom: 1px solid #222;
+}
+
+#logo {
+  display: inline-block;
+  width: 363px;
+  height: 86px;
+  text-indent: -9999px;
+  background: url("/img/castle-riot-logo.png") top left no-repeat;
+  vertical-align: top;
+  margin-right: 40px;
+  margin-top: -20px;
+}
+
+#scores {
+  font-size: 24px;
+  color: #777;
+  padding-top: 16px;
+}
+
+#scores table {
+  border: 1px solid #333;
+  min-width: 350px;
+}
+
+#scores thead tr {
+  background-color: #333;
+  color: #BBB;
+}
+
+#scores td.first {
+  width: 200px;
+}
+
+#scores td {
+  width: 100px;
+}
+
+  .guards  { color: #B51010; }
+  .thieves { color: #289C08; }
+
+  .thieves td {
+    border-bottom: 1px solid #333;
+  }
+
+  .number {
+    color: yellow;
+    margin: 0 10px;
+    font-size: 32px;
+    vertical-align: middle;
+  }
+
+  .label {
+    vertical-align: middle;
+  }
+
+#your-points {
+  color: yellow;
+}
+  #your-points .num {
+    height: 60px;
+  }
+  #your-points .label {
+    padding-left: 30px;
+  }
+
+#links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+  #links li {
+    padding: 10px;
+  }
+
+  #links a, #links iframe {
+    vertical-align: middle;
+  }
+
+#fps {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0 40px;
+  color: red;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+#board {
+  background-color: black;
+  border: 1px solid #333;
+  margin-left: 1px;
+}
+
+  #board.stunned {
+    border: 1px solid red;
+  }
+
+#instructions-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(50, 50, 50, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.instructions {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  width: 600px;
+  background: #eee;
+  color: #333;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+  .instructions h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .instructions a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .instructions .cta {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .instructions .images img {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: white;
+    vertical-align: middle;
+  }
+
+#name-field {
+  width: 300px;
+  font-size: 16px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  padding: 2px;
+}
+
+.guard-image, .thief-image {
+  display: inline-block;
+  width: 32px;
+  height: 48px;
+  vertical-align: middle;
+}
+
+.guard-image {
+  background: url("/img/guard.png") top left no-repeat;
+}
+
+.thief-image {
+  background: url("/img/thief.png") top left no-repeat;
+}
+
+#start-playing {
+  color: black;
+  text-decoration: underline;
+}
+
+#disconnect-message p {
+  text-align: center;
+}
+
+#map {
+  margin-top: 14px;
+  position: relative;
+}
+
+#mini-map-icon {
+  position: absolute;
+}
+
+#footer {
+  margin: 10px;
+  color: #777;
+}
+
+#footer a {
+  margin: 0 5px;
+}

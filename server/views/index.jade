@@ -1,0 +1,83 @@
+doctype 5
+html
+  head
+    title= title
+    script(src='/js/jaws.js')
+    script(src='/js/jquery.min.js')
+    script(src='/js/underscore.min.js')
+    script(src='/browserify.js')
+    script(src='/socket.io/socket.io.js')
+    link(rel='stylesheet', href='/css/styles.css')
+  body
+    #container
+      #fps
+
+      table
+        tr
+          td#header
+            #logo Castle Riot!
+          td#scores(rowspan='2', valign='top')
+
+            table(cellspacing='0')
+              thead
+                tr
+                  td(colspan='2', align='center')= 'Points'
+              tbody
+                tr.guards
+                  td.first
+                    span.guard-image
+                    span.number 0
+                    span.label Guards
+                  td#guards-points(align='center')= 0
+                tr.thieves
+                  td
+                    span.thief-image
+                    span.number 0
+                    span.label Thieves
+                  td#thieves-points(align='center')= 0
+                tr#your-points
+                  td.label= 'YOU'
+                  td(align='center').num= 0
+
+            br
+
+            table#high-scores(cellspacing='0')
+              thead
+                tr
+                  td(colspan='2', align='center')= 'High Scores'
+              tbody
+                tr#high-score-list
+                  td(colspan='2')= 'Loading...'
+
+          td(rowspan='2', valign='top')
+            ul#links
+              li#vote-link
+                iframe#nko-vote(frameborder=0, scrolling="no", allowtransparency=true, width=115, height=25)
+              li#help-link
+                a(href="#") Help
+
+        tr
+          td(valign='top', align='center')
+            canvas#board(width=300, height=300)
+
+
+      #map
+        img(src="/img/full-map.png", width=760, height=455)
+
+      #footer
+        p
+          | Castle Riot was built in 48 hours for
+          a(href="http://nodeknockout.com", target="_blank") Node Knockout
+          | by
+          a(href="http://massalabs.com", target="_blank") Sean Massa
+          |, 
+          a(href="http://stevenoxley.com/about", target="_blank") Steve Oxley
+          | and
+          a(href="http://chrisjpowers.com", target="_blank") Chris Powers
+          |.
+
+
+        
+
+      #jaws-log
+

@@ -1,0 +1,23 @@
+{
+  "name": "nko3-third-times-the-char",
+  "version": "0.0.0-33",
+  "description": "Third Time's the Charm",
+  "main": "server.js",
+  "scripts": {
+    "preinstall": "cd server && npm install && cd ..",
+    "start": "coffee server/index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nko3/third-times-the-char.git"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "0.8.x"
+  },
+  "subdomain": "third-times-the-char.nko3",
+  "domains": [
+    "castleriot.com",
+    "www.castleriot.com"
+  ]
+}
