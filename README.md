@@ -8,13 +8,13 @@ As a guard, use your torch to find thieves and capture them!
 
 Play for fame, glory, and maybe the high score!
 
-Go to [castleriot.com](http://www.castleriot.com) to check it out!
+### Demo
+
+http://www.youtube.com/watch?v=Mmsq13rcNjE
 
 ### Status
 
 This game was built for Node Knockout 2012, which is a 48-hour competition to create something with node.js. Therefore, the code quality isn't the best.
-
-Our entry can be found [here](http://nodeknockout.com/teams/third-times-the-char).
 
 ### Team
 
