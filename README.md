@@ -31,6 +31,6 @@ Our team consisted of:
 * jawsjs
 * expressjs
 
-# LICENSE
+## LICENSE
 
 [MIT](LICENSE)
